@@ -1,5 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
 }
 .container {
   background-color: antiquewhite;
@@ -12,10 +13,11 @@ h1 {
   font-size: 48px;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 0;
 }
 
 img {
   display: block;
-  width: 75%;
+  max-width: 75%;
   margin: 0 auto;
 }

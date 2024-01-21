@@ -1,8 +1,21 @@
 body {
   font-family: "Courier New", Courier, monospace;
+}
+.container {
   background-color: antiquewhite;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-h1 {
-  text-transform: uppercase;
+img {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
 }
